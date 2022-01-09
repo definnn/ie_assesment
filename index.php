@@ -141,6 +141,7 @@
             $edi .= "UNZ+1+".$refno."'";
 
             $edi_string.=$edi;
+            unlink($targetPath);
         }
     }
 ?>
